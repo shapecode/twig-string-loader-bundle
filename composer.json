@@ -1,0 +1,40 @@
+{
+    "name": "shapecode/twig-string-loader-bundle",
+    "description": "Adds the string loader to twig",
+    "keywords": [
+        "symfony",
+        "shapecode",
+        "twig",
+        "template",
+        "string",
+        "string loader",
+        "loader",
+        "bundle"
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "homepage": "http://shapecode.de",
+    "support": {
+        "email": "support@nikita-loges.de",
+        "issues": "https://bitbucket.org/shapecode/twig-string-loader-bundle/issues",
+        "source": "https://bitbucket.org/shapecode/twig-string-loader-bundle/downloads",
+        "wiki": "https://bitbucket.org/shapecode/twig-string-loader-bundle/wiki/Home"
+    },
+    "authors": [
+        {
+            "name": "Nikita Loges",
+            "homepage": "http://nikita-loges.de",
+            "email": "develop@nikita-loges.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "twig/twig": "~1.16"
+    },
+    "autoload": {
+        "psr-0": {
+            "Shapecode\\Bundle\\TwigStringLoaderBundle": ""
+        }
+    },
+    "target-dir": "Shapecode/Bundle/TwigStringLoaderBundle"
+}

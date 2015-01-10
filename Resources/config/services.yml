@@ -1,0 +1,18 @@
+parameters:
+    # twig
+    twig.loader.chain.class: Twig_Loader_Chain
+    twig.loader.string.class: Twig_Loader_String
+
+services:
+
+    # twig
+    shapecode.twig_string_loader.twig.string_loader:
+        class: %twig.loader.string.class%
+        tags:
+            - { name: twig.loader }
+
+    shapecode.twig_string_loader.twig.chain_loader:
+        class: %twig.loader.chain.class%
+        calls:
+            - [ addLoader, [@twig.loader] ]
+            - [ addLoader, [@shapecode.twig_string_loader.twig.string_loader] ]
