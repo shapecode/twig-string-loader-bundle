@@ -1,4 +1,4 @@
-Tenolo - Core
+Shapecode - Twig String Loader Bundle
 =======================
 
 System requirements
@@ -46,7 +46,7 @@ class AppKernel extends Kernel
 }
 ```
 
-Now you can compile strings with twig
+Now you can compile strings with twig:
 
 ``` php
 $this->get('twig')->render('Hello {{ world }}', array(
