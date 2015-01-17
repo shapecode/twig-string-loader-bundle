@@ -29,7 +29,9 @@
     ],
     "require": {
         "php": ">=5.3",
-        "twig/twig": "~1.16"
+        "twig/twig": "~1.16",
+        "symfony/framework-bundle": "~2.6",
+        "symfony/twig-bundle":      "~2.6"
     },
     "autoload": {
         "psr-0": {
