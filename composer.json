@@ -28,10 +28,11 @@
         }
     ],
     "require": {
-        "php": ">=5.3",
-        "twig/twig": "~1.16",
+        "php": ">=5.3.9",
         "symfony/framework-bundle": "~2.6",
-        "symfony/twig-bundle":      "~2.6"
+        "symfony/twig-bundle": "~2.6",
+        "symfony/yaml": "~2.6",
+        "twig/twig": "~1.16"
     },
     "autoload": {
         "psr-0": {
