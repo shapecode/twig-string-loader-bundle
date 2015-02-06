@@ -25,4 +25,4 @@ class TwigStringLoaderPass implements CompilerPassInterface
             new Reference('shapecode.twig_string_loader.twig.chain_loader')
         ));
     }
-} 
+}

@@ -19,7 +19,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('shapecode_twig_string_loader');
+        $treeBuilder->root('shapecode_twig_string_loader');
 
         return $treeBuilder;
     }
