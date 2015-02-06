@@ -1,6 +1,8 @@
 Shapecode - Twig String Loader Bundle
 =======================
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/38cf2264-b297-4731-a85a-7f90cfafa2ff/big.png)](https://insight.sensiolabs.com/projects/38cf2264-b297-4731-a85a-7f90cfafa2ff)
+
 System requirements
 -----------------------------------
 
