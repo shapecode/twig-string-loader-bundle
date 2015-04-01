@@ -29,15 +29,16 @@
     ],
     "require": {
         "php": ">=5.3.9",
-        "symfony/framework-bundle": "~2.6",
+        "symfony/dependency-injection": "~2.6",
+        "symfony/http-kernel": "~2.6",
+        "symfony/config": "~2.6",
         "symfony/twig-bundle": "~2.6",
         "symfony/yaml": "~2.6",
         "twig/twig": "~1.16"
     },
     "autoload": {
-        "psr-0": {
-            "Shapecode\\Bundle\\TwigStringLoaderBundle": ""
+        "psr-4": {
+            "Shapecode\\Bundle\\TwigStringLoaderBundle\\": ""
         }
-    },
-    "target-dir": "Shapecode/Bundle/TwigStringLoaderBundle"
+    }
 }
