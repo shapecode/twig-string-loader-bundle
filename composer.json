@@ -29,12 +29,11 @@
     ],
     "require": {
         "php": ">=5.4",
-        "symfony/dependency-injection": "~2.6",
-        "symfony/http-kernel": "~2.6",
-        "symfony/config": "~2.6",
-        "symfony/twig-bundle": "~2.6",
-        "symfony/yaml": "~2.6",
-        "twig/twig": "~1.16"
+        "symfony/dependency-injection": "~2.7",
+        "symfony/http-kernel": "~2.7",
+        "symfony/config": "~2.7",
+        "symfony/twig-bundle": "~2.7",
+        "twig/twig": "~1.18"
     },
     "autoload": {
         "psr-4": {
