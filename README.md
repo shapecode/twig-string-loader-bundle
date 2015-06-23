@@ -1,15 +1,12 @@
 Shapecode - Twig String Loader Bundle
 =======================
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/38cf2264-b297-4731-a85a-7f90cfafa2ff/big.png)](https://insight.sensiolabs.com/projects/38cf2264-b297-4731-a85a-7f90cfafa2ff)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/5bd36400-a96f-41e2-9a5c-0f13537415f4/mini.png)](https://insight.sensiolabs.com/projects/5bd36400-a96f-41e2-9a5c-0f13537415f4)
+[![Latest Stable Version](https://poser.pugx.org/shapecode/twig-string-loader-bundle/v/stable)](https://packagist.org/packages/shapecode/twig-string-loader-bundle) 
+[![Total Downloads](https://poser.pugx.org/shapecode/twig-string-loader-bundle/downloads)](https://packagist.org/packages/shapecode/twig-string-loader-bundle) 
+[![Latest Unstable Version](https://poser.pugx.org/shapecode/twig-string-loader-bundle/v/unstable)](https://packagist.org/packages/shapecode/twig-string-loader-bundle) 
+[![License](https://poser.pugx.org/shapecode/twig-string-loader-bundle/license)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
 
-System requirements
------------------------------------
-
-* PHP >=5.3
-* Twig ~1.16
-* Symfony Framework Bundle ~2.6
-* Symfony Twig Bundle ~2.6
 
 Install instructions
 --------------------------------
@@ -24,7 +21,7 @@ First you need to add `shapecode/twig-string-loader-bundle` to `composer.json`:
 }
 ```
 
-Please note that `dev-master` points to the latest release. If you want to use the latest development version please use `dev-develop`. Of course you can also use an explicit version number, e.g., `1.0.*`.
+Please note that `dev-develop` points to the latest development version. Of course you can also use an explicit version number, e.g., `1.0.*`.
 
 You also have to add `ShapecodeTwigStringLoaderBundle` to your `AppKernel.php`:
 
