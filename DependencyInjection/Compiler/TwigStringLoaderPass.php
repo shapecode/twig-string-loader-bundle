@@ -16,7 +16,7 @@ class TwigStringLoaderPass implements CompilerPassInterface
 {
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function process(ContainerBuilder $container)
     {
