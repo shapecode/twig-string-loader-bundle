@@ -16,13 +16,13 @@ class TwigStringLoaderPass implements CompilerPassInterface
 {
 
     /**
-     * {@inheritdoc}
+     * @inheritdoc
      */
     public function process(ContainerBuilder $container)
     {
         $definition = $container->getDefinition('twig');
         $definition->addMethodCall('setLoader', array(
-            new Reference('shapecode.twig_string_loader.twig.chain_loader')
+            new Reference('shapecode.twig_string_loader.twig_loader.chain')
         ));
     }
 }
