@@ -16,9 +16,9 @@
     "homepage": "http://shapecode.de",
     "support": {
         "email": "support@nikita-loges.de",
-        "issues": "https://bitbucket.org/shapecode/twig-string-loader-bundle/issues",
-        "source": "https://bitbucket.org/shapecode/twig-string-loader-bundle/downloads",
-        "wiki": "https://bitbucket.org/shapecode/twig-string-loader-bundle/wiki/Home"
+        "issues": "https://bitbucket.org/shapecode/symfony-twig-string-loader-bundle/issues",
+        "source": "https://bitbucket.org/shapecode/symfony-twig-string-loader-bundle/downloads",
+        "wiki": "https://bitbucket.org/shapecode/symfony-twig-string-loader-bundle/wiki/Home"
     },
     "authors": [
         {
