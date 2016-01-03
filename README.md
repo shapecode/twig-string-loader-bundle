@@ -17,7 +17,7 @@ First you need to add `shapecode/twig-string-loader-bundle` to `composer.json`:
 ``` json
 {
    "require": {
-        "shapecode/twig-string-loader-bundle": "~1.0"
+        "shapecode/twig-string-loader-bundle": "~1.2"
     }
 }
 ```
@@ -52,13 +52,4 @@ Now you can compile strings with twig:
 $this->get('twig')->render('Hello {{ world }}', array(
     'world' => 'World'
 ));
-```
-
-Update instructions
----------------------------
-
-Do a [composer](https://getcomposer.org/doc/00-intro.md) update.
-
-```bash
-php composer.phar update
 ```
