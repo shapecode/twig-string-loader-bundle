@@ -22,7 +22,7 @@ class TwigStringLoaderPass implements CompilerPassInterface
     {
         $definition = $container->getDefinition('twig');
         $definition->addMethodCall('setLoader', array(
-            new Reference('shapecode.twig_string_loader.twig.chain_loader')
+            new Reference('shapecode.twig_string_loader.twig_loader.chain')
         ));
     }
 }
