@@ -28,11 +28,11 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
-        "symfony/dependency-injection": "~2.7",
-        "symfony/http-kernel": "~2.7",
-        "symfony/config": "~2.7",
-        "symfony/twig-bundle": "~2.7",
+        "php": ">=5.5.9",
+        "symfony/dependency-injection": "~2.8|~3.0",
+        "symfony/http-kernel": "~2.8|~3.0",
+        "symfony/config": "~2.8|~3.0",
+        "symfony/twig-bundle": "~2.8|~3.0",
         "twig/twig": "~1.18"
     },
     "autoload": {
