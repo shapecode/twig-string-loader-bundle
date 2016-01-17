@@ -40,10 +40,5 @@
         "psr-4": {
             "Shapecode\\Bundle\\TwigStringLoaderBundle\\": ""
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "1.0-dev"
-        }
     }
 }
