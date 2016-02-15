@@ -27,8 +27,11 @@ Please note that `dev-develop` points to the latest development version. Of cour
 You also have to add `ShapecodeTwigStringLoaderBundle` to your `AppKernel.php`:
 
 ``` php
+<?php
+
 // app/AppKernel.php
 //...
+
 class AppKernel extends Kernel
 {
     //...
@@ -49,6 +52,8 @@ class AppKernel extends Kernel
 Now you can compile strings with twig:
 
 ``` php
+<?php
+
 $this->get('twig')->render('Hello {{ world }}', array(
     'world' => 'World'
 ));
