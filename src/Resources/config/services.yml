@@ -1,6 +1,6 @@
 parameters:
     # twig
-    shapecode.twig_string_loader.twig_loader.chain.class: %twig.loader.chain.class%
+    shapecode.twig_string_loader.twig_loader.chain.class: Twig_Loader_Chain
     shapecode.twig_string_loader.twig_loader.string.class: Shapecode\Bundle\TwigStringLoaderBundle\Twig\Loader\StringLoader
 
 services:
