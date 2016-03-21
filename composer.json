@@ -37,7 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Shapecode\\Bundle\\TwigStringLoaderBundle\\": ""
+            "Shapecode\\Bundle\\TwigStringLoaderBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shapecode\\Bundle\\TwigStringLoaderBundle\\Tests\\": "tests/"
         }
     }
 }
