@@ -13,12 +13,12 @@
     ],
     "type": "symfony-bundle",
     "license": "MIT",
-    "homepage": "http://shapecode.de",
+    "homepage": "https://github.com/shapecode/twig-string-loader-bundle",
     "support": {
-        "email": "support@nikita-loges.de",
-        "issues": "https://bitbucket.org/shapecode/symfony-twig-string-loader-bundle/issues",
-        "source": "https://bitbucket.org/shapecode/symfony-twig-string-loader-bundle/downloads",
-        "wiki": "https://bitbucket.org/shapecode/symfony-twig-string-loader-bundle/wiki/Home"
+        "email": "support@shapecode.de",
+        "issues": "https://github.com/shapecode/twig-string-loader-bundle/issues",
+        "source": "https://github.com/shapecode/twig-string-loader-bundle/releases",
+        "wiki": "https://github.com/shapecode/twig-string-loader-bundle/wiki"
     },
     "authors": [
         {
@@ -28,11 +28,13 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
+        "php": "~5.5|~7.0",
+
         "symfony/dependency-injection": "~2.8|~3.0",
         "symfony/http-kernel": "~2.8|~3.0",
         "symfony/config": "~2.8|~3.0",
         "symfony/twig-bundle": "~2.8|~3.0",
+
         "twig/twig": "~1.18"
     },
     "autoload": {
@@ -44,5 +46,12 @@
         "psr-4": {
             "Shapecode\\Bundle\\TwigStringLoaderBundle\\Tests\\": "tests/"
         }
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-release/1.2": "1.2-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
