@@ -1,7 +1,7 @@
 Shapecode - Twig String Loader Bundle
 =======================
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/5bd36400-a96f-41e2-9a5c-0f13537415f4/mini.png)](https://insight.sensiolabs.com/projects/5bd36400-a96f-41e2-9a5c-0f13537415f4)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a22d7be1-bbe3-42ff-bc07-057cb5776cdf/mini.png)](https://insight.sensiolabs.com/projects/a22d7be1-bbe3-42ff-bc07-057cb5776cdf)
 [![Dependency Status](https://www.versioneye.com/user/projects/5589a70d306662001d0001c5/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5589a70d306662001d0001c5)
 [![Latest Stable Version](https://poser.pugx.org/shapecode/twig-string-loader-bundle/v/stable)](https://packagist.org/packages/shapecode/twig-string-loader-bundle) 
 [![Total Downloads](https://poser.pugx.org/shapecode/twig-string-loader-bundle/downloads)](https://packagist.org/packages/shapecode/twig-string-loader-bundle) 
