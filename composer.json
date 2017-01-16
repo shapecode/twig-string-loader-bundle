@@ -30,10 +30,10 @@
     "require": {
         "php": "~5.5|~7.0",
 
-        "symfony/dependency-injection": "~2.8|~3.0",
-        "symfony/http-kernel": "~2.8|~3.0",
-        "symfony/config": "~2.8|~3.0",
-        "symfony/twig-bundle": "~2.8|~3.0",
+        "symfony/dependency-injection": "~2.2|~3.0",
+        "symfony/http-kernel": "~2.2|~3.0",
+        "symfony/config": "~2.2|~3.0",
+        "symfony/twig-bundle": "~2.2|~3.0",
 
         "twig/twig": "~1.18|~2.0"
     },
