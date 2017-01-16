@@ -4,10 +4,11 @@ namespace Shapecode\Bundle\TwigStringLoaderBundle\Twig\Loader;
 
 /**
  * Class StringLoader
+ *
  * @package Shapecode\Bundle\TwigStringLoaderBundle\Twig\Loader
- * @author Nikita Loges
+ * @author  Nikita Loges
  */
-class StringLoader implements \Twig_LoaderInterface
+class StringLoader implements \Twig_LoaderInterface, \Twig_SourceContextLoaderInterface, \Twig_ExistsLoaderInterface
 {
 
     /**
@@ -16,6 +17,14 @@ class StringLoader implements \Twig_LoaderInterface
     public function getSource($name)
     {
         return $name;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function getSourceContext($name)
+    {
+        return new \Twig_Source($name, $name);
     }
 
     /**
@@ -32,5 +41,13 @@ class StringLoader implements \Twig_LoaderInterface
     public function isFresh($name, $time)
     {
         return true;
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function exists($name)
+    {
+        return preg_match('/\s/', $name);
     }
 }
