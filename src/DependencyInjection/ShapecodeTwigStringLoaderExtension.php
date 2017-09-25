@@ -9,8 +9,9 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
  * Class ShapecodeTwigStringLoaderExtension
+ *
  * @package Shapecode\Bundle\TwigStringLoaderBundle\DependencyInjection
- * @author Nikita Loges
+ * @author  Nikita Loges
  */
 class ShapecodeTwigStringLoaderExtension extends Extension
 {
