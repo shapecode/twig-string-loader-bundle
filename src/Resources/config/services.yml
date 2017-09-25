@@ -7,6 +7,6 @@ services:
 
     # twig
     shapecode.twig_string_loader.twig_loader.string:
-        class: %shapecode.twig_string_loader.twig_loader.string.class%
+        class: '%shapecode.twig_string_loader.twig_loader.string.class%'
         tags:
             - { name: twig.loader }
