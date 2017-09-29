@@ -5,6 +5,7 @@ namespace Shapecode\Bundle\TwigStringLoaderBundle\Twig\Loader;
 use Twig\Loader\ExistsLoaderInterface;
 use Twig\Loader\LoaderInterface;
 use Twig\Loader\SourceContextLoaderInterface;
+use Twig\Source;
 
 /**
  * Class StringLoader
@@ -28,7 +29,7 @@ class StringLoader implements LoaderInterface, SourceContextLoaderInterface, Exi
      */
     public function getSourceContext($name)
     {
-        return new \Twig_Source($name, $name);
+        return new Source($name, $name);
     }
 
     /**
