@@ -23,17 +23,19 @@
     "authors": [
         {
             "name": "Nikita Loges",
-            "homepage": "http://nikita-loges.de",
-            "email": "develop@nikita-loges.de"
+            "homepage": "https://loges.one",
+            "email": "dev@loges.one"
         }
     ],
     "require": {
-        "php": "~5.5|~7.0",
+        "php": "~7.2",
 
-        "symfony/dependency-injection": "~2.2|~3.0|~4.0",
-        "symfony/http-kernel": "~2.2|~3.0|~4.0",
-        "symfony/config": "~2.2|~3.0|~4.0",
-        "symfony/twig-bundle": "~2.2|~3.0|~4.0",
+        "symfony/framework-bundle": "~3.4|~4.0",
+        "symfony/dependency-injection": "~3.4|~4.0",
+        "symfony/http-kernel": "~3.4|~4.0",
+        "symfony/config": "~3.4|~4.0",
+        "symfony/twig-bundle": "~3.4|~4.0",
+        "symfony/yaml": "~3.4|~4.0",
 
         "twig/twig": "~1.34|~2.0"
     },
@@ -49,7 +51,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.5-dev"
+            "dev-master": "2.1-dev"
         }
     },
     "minimum-stability": "dev",

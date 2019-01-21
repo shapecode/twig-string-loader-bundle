@@ -1,12 +1,8 @@
-parameters:
-
-    # twig
-    shapecode.twig_string_loader.twig_loader.string.class: Shapecode\Bundle\TwigStringLoaderBundle\Twig\Loader\StringLoader
-
 services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
 
     # twig
-    shapecode.twig_string_loader.twig_loader.string:
-        class: '%shapecode.twig_string_loader.twig_loader.string.class%'
-        tags:
-            - { name: twig.loader }
+    Shapecode\Bundle\TwigStringLoaderBundle\Twig\Loader\StringLoader: ~
