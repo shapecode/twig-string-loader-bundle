@@ -1,12 +1,13 @@
 Shapecode - Twig String Loader Bundle
 =======================
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a22d7be1-bbe3-42ff-bc07-057cb5776cdf/mini.png)](https://insight.sensiolabs.com/projects/a22d7be1-bbe3-42ff-bc07-057cb5776cdf)
-[![Latest Stable Version](https://poser.pugx.org/shapecode/twig-string-loader-bundle/v/stable)](https://packagist.org/packages/shapecode/twig-string-loader-bundle) 
-[![Total Downloads](https://poser.pugx.org/shapecode/twig-string-loader-bundle/downloads)](https://packagist.org/packages/shapecode/twig-string-loader-bundle) 
-[![Latest Unstable Version](https://poser.pugx.org/shapecode/twig-string-loader-bundle/v/unstable)](https://packagist.org/packages/shapecode/twig-string-loader-bundle) 
-[![License](https://poser.pugx.org/shapecode/twig-string-loader-bundle/license)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
+[![paypal](https://img.shields.io/badge/Donate-Paypal-blue.svg)](http://paypal.me/nloges)
 
+[![PHP Version](https://img.shields.io/packagist/php-v/shapecode/twig-string-loader-bundle.svg)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
+[![Latest Stable Version](https://img.shields.io/packagist/v/shapecode/twig-string-loader-bundle.svg?label=stable)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
+[![Latest Unstable Version](https://img.shields.io/packagist/vpre/shapecode/twig-string-loader-bundle.svg?label=unstable)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
+[![Total Downloads](https://img.shields.io/packagist/dt/shapecode/twig-string-loader-bundle.svg)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
+[![License](https://img.shields.io/packagist/l/shapecode/twig-string-loader-bundle.svg)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
 
 Install instructions
 --------------------------------
