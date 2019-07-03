@@ -1,5 +1,4 @@
-Shapecode - Twig String Loader Bundle
-=======================
+# Shapecode - Twig String Loader Bundle
 
 [![paypal](https://img.shields.io/badge/Donate-Paypal-blue.svg)](http://paypal.me/nloges)
 
@@ -11,8 +10,7 @@ Shapecode - Twig String Loader Bundle
 [![Daily Downloads](https://img.shields.io/packagist/dd/shapecode/twig-string-loader-bundle.svg?label=daily)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
 [![License](https://img.shields.io/packagist/l/shapecode/twig-string-loader-bundle.svg)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
 
-Install instructions
---------------------------------
+## Install instructions
 
 First you need to add `shapecode/twig-string-loader-bundle` to `composer.json`:
 
@@ -64,6 +62,8 @@ return [
     Shapecode\Bundle\TwigStringLoaderBundle\ShapecodeTwigStringLoaderBundle::class => ['all' => true],
 ];
 ```
+
+## Usage
 
 Now you can compile strings with twig:
 
