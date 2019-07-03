@@ -15,14 +15,6 @@ class StringLoader implements LoaderInterface
 {
 
     /**
-     * @inheritdoc
-     */
-    public function getSource($name)
-    {
-        return $name;
-    }
-
-    /**
      * @inheritDoc
      */
     public function getSourceContext($name)
