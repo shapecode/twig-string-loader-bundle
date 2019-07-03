@@ -1,6 +1,6 @@
 {
     "name": "shapecode/twig-string-loader-bundle",
-    "description": "Adds the string loader to twig",
+    "description": "Adds a string loader to twig",
     "keywords": [
         "symfony",
         "shapecode",
@@ -28,7 +28,7 @@
         }
     ],
     "require": {
-        "php": "~7.2",
+        "php": "~7.0",
 
         "symfony/framework-bundle": "~3.4|~4.0",
         "symfony/dependency-injection": "~3.4|~4.0",
@@ -37,7 +37,7 @@
         "symfony/twig-bundle": "~3.4|~4.0",
         "symfony/yaml": "~3.4|~4.0",
 
-        "twig/twig": "~2.11|~3.0"
+        "shapecode/twig-string-loader": "~1.0"
     },
     "autoload": {
         "psr-4": {

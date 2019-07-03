@@ -5,4 +5,4 @@ services:
         public: false
 
     # twig
-    Shapecode\Bundle\TwigStringLoaderBundle\Twig\Loader\StringLoader: ~
+    Shapecode\Twig\Loader\StringLoader: ~
