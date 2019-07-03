@@ -2,9 +2,7 @@
 
 namespace Shapecode\Bundle\TwigStringLoaderBundle\Twig\Loader;
 
-use Twig\Loader\ExistsLoaderInterface;
 use Twig\Loader\LoaderInterface;
-use Twig\Loader\SourceContextLoaderInterface;
 use Twig\Source;
 
 /**
@@ -13,7 +11,7 @@ use Twig\Source;
  * @package Shapecode\Bundle\TwigStringLoaderBundle\Twig\Loader
  * @author  Nikita Loges
  */
-class StringLoader implements LoaderInterface, SourceContextLoaderInterface, ExistsLoaderInterface
+class StringLoader implements LoaderInterface
 {
 
     /**
