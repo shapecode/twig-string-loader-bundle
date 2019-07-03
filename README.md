@@ -14,6 +14,8 @@ Install instructions
 
 First you need to add `shapecode/twig-string-loader-bundle` to `composer.json`:
 
+Do it by execute `composer require shapecode/twig-string-loader-bundle` or do it manually
+
 ``` json
 {
    "require": {
@@ -22,7 +24,7 @@ First you need to add `shapecode/twig-string-loader-bundle` to `composer.json`:
 }
 ```
 
-You also have to add `ShapecodeTwigStringLoaderBundle` to your `AppKernel.php`:
+You also have to add `ShapecodeTwigStringLoaderBundle` to your `AppKernel.php` ...
 
 ``` php
 <?php
@@ -45,6 +47,20 @@ class AppKernel extends Kernel
     }
     //...
 }
+```
+
+... or `bundles.php` when you don't use Symfony Flex.
+
+``` php
+<?php
+
+// bundles.php
+//...
+
+return [
+    // .....  
+    Shapecode\Bundle\TwigStringLoaderBundle\ShapecodeTwigStringLoaderBundle::class => ['all' => true],
+];
 ```
 
 Now you can compile strings with twig:
