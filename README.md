@@ -7,6 +7,8 @@ Shapecode - Twig String Loader Bundle
 [![Latest Stable Version](https://img.shields.io/packagist/v/shapecode/twig-string-loader-bundle.svg?label=stable)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
 [![Latest Unstable Version](https://img.shields.io/packagist/vpre/shapecode/twig-string-loader-bundle.svg?label=unstable)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
 [![Total Downloads](https://img.shields.io/packagist/dt/shapecode/twig-string-loader-bundle.svg)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
+[![Monthly Downloads](https://img.shields.io/packagist/dm/shapecode/twig-string-loader-bundle.svg?label=monthly)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
+[![Daily Downloads](https://img.shields.io/packagist/dd/shapecode/twig-string-loader-bundle.svg?label=daily)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
 [![License](https://img.shields.io/packagist/l/shapecode/twig-string-loader-bundle.svg)](https://packagist.org/packages/shapecode/twig-string-loader-bundle)
 
 Install instructions
