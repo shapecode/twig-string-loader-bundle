@@ -19,7 +19,7 @@ Do it by execute `composer require shapecode/twig-string-loader-bundle` or do it
 ``` json
 {
    "require": {
-        "shapecode/twig-string-loader-bundle": "~1.4"
+        "shapecode/twig-string-loader-bundle": "^2.0"
     }
 }
 ```
