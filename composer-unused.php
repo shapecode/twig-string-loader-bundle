@@ -1,0 +1,14 @@
+<?php
+
+declare(strict_types=1);
+
+use ComposerUnused\ComposerUnused\Configuration\Configuration;
+use ComposerUnused\ComposerUnused\Configuration\NamedFilter;
+
+return static function (Configuration $config): Configuration {
+    return $config
+        ->addNamedFilter(NamedFilter::fromString('symfony/framework-bundle'))
+        ->addNamedFilter(NamedFilter::fromString('symfony/twig-bundle'))
+        ->addNamedFilter(NamedFilter::fromString('symfony/yaml'))
+        ->addNamedFilter(NamedFilter::fromString('shapecode/twig-string-loader'));
+};
