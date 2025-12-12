@@ -15,10 +15,11 @@ jobs:
 
     strategy:
       matrix:
-        php-versions: [ '8.2', '8.3' ]
+        php-versions: [ '8.4', '8.5' ]
+        dependencies: [ 'locked', 'latest', 'lowest' ]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -26,5 +27,11 @@ jobs:
           php-version: ${{ matrix.php-versions }}
 
       - run: composer validate --strict -n
-      - run: composer install --prefer-dist --no-progress --no-suggest
+
+      - name: Install Composer dependencies
+        uses: ramsey/composer-install@v3
+        with:
+            dependency-versions: ${{ matrix.dependencies }}
+            composer-options: --prefer-dist --no-suggest --no-scripts
+
       - run: composer check

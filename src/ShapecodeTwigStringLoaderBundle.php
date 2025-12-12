@@ -6,6 +6,6 @@ namespace Shapecode\Bundle\TwigStringLoaderBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class ShapecodeTwigStringLoaderBundle extends Bundle
+final class ShapecodeTwigStringLoaderBundle extends Bundle
 {
 }
